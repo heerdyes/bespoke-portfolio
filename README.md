@@ -1,2 +1,2 @@
 # bespoke-portfolio
-my website/portfolio/resume/whatnot
+my website/portfolio/brand/presence/resume/whatever

@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'ocra';
+    src: url('../fonts/ocra.ttf');
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    font-family: 'ocra';
+    background-color: black;
+    color: #00FF00;
+}
+
+a {
+    color: cyan;
+}
+
+.z {
+    text-align: justify;
+}
+
+.z > p {
+    color: #00BB00;
+}
+
+@media screen and (min-width: 64rem) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 30px;
+        margin: 10px;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 64rem) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 10px;
+    }
+    
+    h2 {
+        text-align: left;
+    }
+}
